@@ -1,0 +1,88 @@
+/* ID referenced HTML element */
+#title {
+    text-align: center;
+}
+
+body {
+    font-family: spaceFont, serif;
+    background-color: #990099;
+    background-image: linear-gradient(#b14e9c, #6a2f5d);
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #b14e9c;
+    color: #b3ffff;
+    font-size: 20px;
+    border-right: 1px solid #70726F;
+}
+
+#imgSize {
+    height: 400px;
+    width: 400px;
+    margin-bottom: 2%;
+}
+
+#rocket {
+    height: 660px;
+    width: 550px;
+}
+
+#button {
+    background-color: #4d4d4d;
+    color: black;
+}
+
+/* navBar */
+.navBar {
+    /* Add a black background color to the top navigation */
+    background-color: #6a2f5d;
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.navBar a {
+    /* Style the links inside the navigation bar */
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navBar a:hover {
+    /* Change the color of links on hover */
+    background-color: #b14e9c;
+    color: #ffffff;
+}
+
+.navBar a.active {
+    /* Add a color to the active/current link */
+    background-color: #b14e9c;
+    color: #ffffff;
+}
+
+/* carousel */
+#spaceCarousel {
+    height: 450px;
+    width: 450px;
+}
+
+/* text containers */
+.container {
+    margin-left: 5%;
+    width: 95%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+
+/* custom font import */
+@font-face {
+    font-family: spaceFont;
+    src: url(../fonts/madeinspace.ttf);
+}
